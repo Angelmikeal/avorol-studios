@@ -1,0 +1,174 @@
+
+@font-face {
+  font-family: 'Proxima-Nova-Alt-Black';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Alt-Black-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+@font-face {
+  font-family: 'Proxima-Nova-Alt-Bold';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Alt-Bold-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+@font-face {
+  font-family: 'Proxima-Nova-Alt-Condensed-Semibold';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Alt-Condensed-Semibold-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+@font-face {
+  font-family: 'Proxima-Nova-Alt-Regular';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Alt-Regular-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
+@font-face {
+  font-family: 'Proxima-Nova-ScOsf-Thin';
+  src: url('./fonts/Mark-Simonson- Proxima-Nova-ScOsf-Thin-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+@font-face {
+  font-family: 'Proxima-Nova-Semibold';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Semibold-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+@font-face {
+  font-family: 'Proxima-Nova-Thin';
+  src: url('./fonts/Mark-Simonson-Proxima-Nova-Thin-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.home {
+  padding-left: 50px;
+}*/
+/*
+.introduction {
+  margin-top: 200px;
+}
+*/
+/*.company-pitch {
+  width: 100%;
+}*/
+
+.company-header {
+  color: #000000;
+  font-family: "Proxima-Nova-Thin";
+  font-size: 48px;
+  font-weight: 100;
+  letter-spacing: 5.53px;
+  line-height: 56px;
+}
+
+.company-motto {
+  height: 17px;
+  color: #000000;
+  font-family: "Proxima-Nova-Alt-Condensed-Semibold";
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 2.83px;
+  line-height: 17px;
+  margin-top: -10px;
+}
+
+.pitch-area {
+  height: 166px;
+  color: #000000;
+  font-family: "Proxima-Nova-Semibold";
+  font-size: 28px;
+  font-weight: 100;
+  letter-spacing: 4.15px;
+  line-height: 33px;
+  margin-top: 85px;
+}
+
+.special-words {
+  font-family: "Proxima-Nova-Thin";
+}
+
+.kite-area {
+  margin: auto;
+}
+
+.kite {
+  text-align: center;
+}
+
+.kite-img {
+  height: 314px;
+  width: 314px;
+}
+
+.hire-join {
+  margin-top: 104px;
+}
+
+.hire {
+  height: 61px;
+  width: auto;
+  background-color: #000000;
+  box-shadow: 15px 12px 19px 0 rgba(0, 0, 0, 0.21);
+  margin-right: 84px;
+  border: 0px;
+}
+
+.hire span {
+  height: 29px;
+  width: 120px;
+  color: #ffffff;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 4.15px;
+  line-height: 29px;
+}
+
+.join {
+  height: 61px;
+  width: auto;
+  border: 1px solid #ededed;
+  background-color: #ffffff;
+  box-shadow: 15px 12px 19px 0 rgba(0, 0, 0, 0.21);
+}
+
+.join span {
+  height: 29px;
+  width: 261px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 4.15px;
+  line-height: 29px;
+}
