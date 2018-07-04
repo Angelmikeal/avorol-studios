@@ -38,6 +38,44 @@
   src: url('./fonts/Mark-Simonson-Proxima-Nova-Thin-webfont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 } 
 
+
+
+ .navbar {
+ 	background-color: #FFFFFF;
+ 	height: auto;
+ 	border: 0px;
+  border-radius: 0px;
+ }
+
+
+.navbar-header {
+	height: 80px;
+}
+
+.navbar-brand{
+  padding: 3% 0px 0px 5%;
+}
+
+.navbar-toggle {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+ .navbar-nav {
+   margin-top: 15px;
+   color: #000000;	
+   font-family: 'Proxima-Nova-Alt-Regular';	
+   font-size: 20px;	
+   font-weight: 100;	
+   letter-spacing: 5.05px;	
+   line-height: 24px;
+ }
+
+ .nav li a {
+   color: #000000;
+ }
+ 
+
 .no-pad {
   padding: 0px !important;
 }
@@ -47,7 +85,7 @@
 }
 
 .introduction {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .company-pitch {
@@ -102,7 +140,7 @@
 }
 
 .hire-join {
-  margin-top: 84px;
+  margin-top: 5%;
   margin-bottom: 50px;
 }
 
@@ -142,51 +180,6 @@
   line-height: 29px;
 }
 
-
-.parent{
-    width: 100%;
-    height: 560px;
-    position: relative;
-    margin-top: -150px;
-}
-
-.child1 {
-    position: absolute;
-    width: 100% !important;
-    height: 320px;
-    background-image: url('./inspect-assets/Combined Shape.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.child2 {
-    position: absolute;
-    width: 100% !important;
-    height: 340px;
-    background-repeat: no-repeat;
-    background-image: url('./inspect-assets/Combined Shape.svg');
-    background-position-y: 10px;
-    z-index: 2;
-    background-size: cover;
-}
-
-.child3 {
-    position: absolute;
-    width: 100% !important;
-    height: 360px;
-    background-repeat: no-repeat;
-    background-image: url('./inspect-assets/Combined Shape.svg');
-    background-position-y: 20px;
-    z-index: 4;
-    background-size: cover;
-}
-
 .what-we-do {
   width: 100%;
-  height: 500px;
-  background-image: url('./inspect-assets/Path 2.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-top: -31.9%;
-  background-position: top;
 }
