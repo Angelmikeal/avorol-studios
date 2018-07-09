@@ -1,5 +1,4 @@
 body{
-	font-size: 14px;
 	overflow-x: hidden;
 	overflow-y: scroll  !important;
 }
@@ -56,11 +55,16 @@ body{
 
 
 .navbar-header {
-	height: 85px;
+	height: auto;
 }
 
 .navbar-brand{
-  margin: 2% 0px 0px 3%;
+  margin: 3% 0px 0px 5% !important;
+  background-image: url('./inspect-assets/logo.svg');
+  background-size: contain;
+  height: 64px;
+  width: 64px;
+  background-repeat: no-repeat;
 }
 
 .navbar-toggle {
@@ -69,13 +73,16 @@ body{
 }
 
  .navbar-nav {
-   margin-top: 15px;
    color: #000000;	
    font-family: 'Proxima-Nova-Alt-Regular';	
    font-size: 20px;	
    font-weight: 100;	
-   letter-spacing: 5.05px;	
+   letter-spacing: 3px;	
    line-height: 24px;
+ }
+
+ .nav li {
+   padding-top: 15px;
  }
 
  .nav li a {
@@ -203,6 +210,7 @@ body{
 }
 
 .wwd-container{
+  float: right;
   display: inline-block;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -236,7 +244,7 @@ body{
   width: 100%;
   min-height: 500px;
   border-right: 2px dashed #B2BEb5 ;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 20px 0px 10px;
   text-align: left;
   margin-bottom: 80px;
 
@@ -269,7 +277,7 @@ body{
 
 .design-header {
   color: #FFFFFF;	
-  font-family: "Proxima Nova";	
+  font-family: "Proxima-Nova-Alt-Regular";	
   font-size: 18px;	
   font-weight: 600;	
   letter-spacing: 5.05px;	
@@ -293,11 +301,18 @@ body{
   margin-top: 30px;
 }
 
+
+.divide {
+  width: 50% !important;
+  min-height: 500px;
+  border-right: 2px dashed #B2BEb5 ;
+}
+
 .dev{
   width: 100%;
   min-height: 500px;
   border-right: 2px dashed #B2BEb5 ;
-  padding: 0px 20px 0px 0px;
+  padding: 0px 20px 0px 20px;
   text-align: left;
   margin-bottom: 80px;
 
@@ -330,7 +345,7 @@ body{
 
 .dev-header {
   color: #FFFFFF;	
-  font-family: "Proxima Nova";	
+  font-family: 'Proxima-Nova-Alt-Regular';	
   font-size: 18px;	
   font-weight: 600;	
   letter-spacing: 5.05px;	
@@ -357,7 +372,7 @@ body{
 .AI{
   width: 100%;
   min-height: 500px;
-  padding: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 10px;
   text-align: left;
 
 }
@@ -388,7 +403,7 @@ body{
 
 .AI-header {
   color: #FFFFFF;	
-  font-family: "Proxima Nova";	
+  font-family: "Proxima-Nova-Alt-Regular";	
   font-size: 18px;	
   font-weight: 600;	
   letter-spacing: 5.05px;	
@@ -424,3 +439,477 @@ body{
     letter-spacing: 2.76px;	
     line-height: 29px;
 }
+
+.hire-us {
+  height: auto;
+  width: 100%;
+  color: #fff;
+  display: table;
+  background-color: black;
+  padding-bottom: 3vw;
+}
+
+.hire-us-txt {
+	width: 80%;
+	max-height: 500px;
+	margin: auto !important;
+	margin-top: -4vw !important;
+	font-family: "Proxima-Nova-Alt-Condensed-Semibold";	
+	font-size: 4.5em;	
+	font-weight: 600;	
+	letter-spacing: 2px;	
+	text-align: justify;
+	white-space: nowrap;
+}
+
+.long-text {
+	letter-spacing: 35px;
+}
+
+
+.hire-us-header {
+	float: right;
+	color: #FFFFFF;	
+	font-family: "Proxima-Nova-Alt-Condensed-Semibold";	
+	font-size: 32px;	
+	font-weight: 600;	
+	letter-spacing: 5.05px;	
+	line-height: 39px;
+	margin-bottom: 30px;
+	margin-right: 10vw;
+	text-decoration: underline solid #B2BEb5;
+}
+
+
+
+.form {
+	width: 100%;
+	font-family: 'Proxima-Nova-Alt-Condensed-Semibold';
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 2.84px;
+	line-height: 24px;	
+	text-align: justify;
+}
+
+
+.form p {
+	margin: 0px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+.inp {
+	background-color: transparent;
+	border:0px;
+	border-bottom: solid 1px #fff;
+}
+
+.inp:focus {
+	border: 2px solid #ffffff;
+}
+
+.tag {
+	margin-top: 10px;
+}
+
+.input1, .input2, .input3 {
+	min-height: 30px;
+	width: 80%;
+	margin-top: -50px !important;
+	text-align: left;
+}
+
+
+.input3 {
+	height: 170px;
+	margin-top: 0px !important;
+}
+
+.but {
+	height: 50px;
+	width: 80%;
+	background-color: #fff;
+	border-radius: 0px;
+	border:0px;
+	margin-left: 5px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 991px) { 
+      .navbar {
+      height: auto;
+      border: 0px;
+      border-radius: 0px;
+    }
+
+
+    .navbar-header {
+      height: 85px;
+    }
+
+    .navbar-brand{
+        margin: 1% 0px 0px 5% !important;
+      }
+
+      .navbar-nav {
+        color: #000000;	
+        font-family: 'Proxima-Nova-Alt-Regular';	
+        font-size: 20px;	
+        font-weight: 100;	
+        letter-spacing: 3px;	
+        line-height: 24px;
+      }
+
+      .wwd-phrase {
+        width: 100%;
+        font-size: 14px;	
+        font-weight: 600;	
+        letter-spacing: 1.84px;	
+        line-height: 15px;	
+        text-align: justify;
+        clear: both;
+        margin-top: 22px;
+    }
+
+
+      .design, .dev, .AI{
+          width: 100%;
+          border-right: 0px dashed #B2BEb5 ;
+          border-bottom: 0px dashed #B2BEb5 ;
+          padding: 0px 20px 50px 10px;
+          text-align: left;
+          margin-bottom: 80px;
+         margin-top: 100px;
+
+
+        }
+
+
+
+        .dev-header {
+          font-size: 14px;	
+          font-weight: 600;	
+          letter-spacing: 2.05px;	
+          line-height: 21px;
+          text-decoration: underline solid #B2BEb5;
+        }
+
+        .AI {
+          width: 50%;
+          margin: auto;
+          margin-top: 100px;
+          border-bottom: 0px dashed #B2BEb5 ;
+        }
+        
+
+        .break-line {
+          display: table;
+          border-bottom: 2px dashed #B2BEb5 ;
+        }
+        
+        
+        
+        
+        .hire-us-txt {
+          width: 80%;
+          max-height: 500px;
+          font-family: "Proxima-Nova-Alt-Condensed-Semibold";	
+          font-size: 2.8em;	
+          font-weight: 600;	
+          letter-spacing: 2px;	
+          text-align: justify;
+          white-space: nowrap;
+          padding: 2vw !important;
+        }
+
+
+
+        .hire-us-form {
+          padding: 2vw !important;
+        }
+
+
+        .form {
+          font-family: 'Proxima-Nova-Alt-Condensed-Semibold';
+          font-size: 20px;
+          font-weight: 600;
+          letter-spacing: 2.84px;
+          line-height: 24px;	
+          text-align: justify;
+        }
+
+
+        .form p {
+          margin: 0px;
+          margin-top: 10px;
+          margin-left: 10px;
+        }
+
+
+        .input1, .input2, .input3 {
+          min-height: 30px;
+          width: 80%;
+          margin-top: -50px !important;
+          text-align: left;
+        }
+
+
+        .but {
+          height: 50px;
+          width: 80%;
+          background-color: #fff;
+          border-radius: 0px;
+          border:0px;
+          margin-left: 5px;
+          color: #000;
+        }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 768px) {
+
+
+      .design, .dev, .AI{
+          width: 100%;
+          border-right: 0px dashed #B2BEb5 ;
+          border-bottom: 0px dashed #B2BEb5 ;
+          text-align: left;
+          margin-bottom: 80px;
+
+        }
+
+        .dev-header {
+          color: #FFFFFF;	
+          font-family: "Proxima-Nova-Alt-Regular";	
+          font-size: 18px;	
+          font-weight: 600;	
+          letter-spacing: 5.05px;	
+          line-height: 21px;
+          text-decoration: underline solid #B2BEb5;
+        }
+
+        .learn-button {	
+            min-width: 150px;	
+            border: 3px solid #FFFFFF;	
+            background-color: #000000;
+            color: #FFFFFF;
+            font-family: "Proxima-Nova-Alt-Regular";	
+            font-size: 24px;	
+            font-weight: 600;	
+            letter-spacing: 2.76px;	
+            line-height: 29px;
+            margin-top: 20px;
+        }
+
+        .hire-us-txt {
+            width: 80%;
+            max-height: 582px;
+            margin: auto !important;
+            font-family: "Proxima-Nova-Alt-Condensed-Semibold";	
+            font-size: 4em;	
+            font-weight: 600;	
+            letter-spacing: 2px;	
+            text-align: justify;
+            white-space: nowrap;
+          }
+
+
+
+            .hire-us-form {
+              padding: 10% !important;
+              margin-top: 50px;
+          }
+
+
+          .form {
+            font-family: 'Proxima-Nova-Alt-Condensed-Semibold';
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 2.84px;
+            line-height: 24px;	
+            text-align: justify;
+          }
+
+
+          .form p {
+            margin: 0px;
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+
+
+          .inp {
+            border:0px;
+            border-bottom: solid 2px #fff;
+          }
+
+          .inp:focus {
+            border: 2px solid #ffffff;
+          }
+
+          .tag {
+            margin-top: 10px;
+          }
+
+          .input1, .input2, .input3 {
+            min-height: 30px;
+            width: 90%;
+            margin-top: -20px !important;
+            text-align: left;
+          }
+
+
+          .input3 {
+            height: 150px;
+            margin-top: 0px !important;
+          }
+
+          .but {
+            height: 50px;
+            width: 90%;
+            background-color: #fff;
+            border-radius: 0px;
+            margin-left: 0px !important;
+            border:0px;
+            color: #000;
+          }
+                
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 480px) {       
+    
+        .dev-pitch, .AI-pitch, .design-pitch {
+          font-size: 18px;	
+        }
+
+
+
+      .hire-us-txt {
+        width: 80%;
+        max-height: 582px;
+        margin: auto !important;
+        font-family: "Proxima-Nova-Alt-Condensed-Semibold";	
+        font-size: 3em;	
+        font-weight: 600;	
+        letter-spacing: 2px;	
+        text-align: justify;
+        white-space: normal;
+      }
+
+
+
+      .long-text {
+        letter-spacing: 15px;
+      }
+
+
+        .hire-us-form {
+          padding: 10% !important;
+          margin-top: 50px;
+      }
+
+
+      .form {
+        font-family: 'Proxima-Nova-Alt-Condensed-Semibold';
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 2.84px;
+        line-height: 24px;	
+        text-align: justify;
+      }
+
+
+      .form p {
+        margin: 0px;
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+
+
+      .inp {
+        border:0px;
+        border-bottom: solid 2px #fff;
+      }
+
+      .inp:focus {
+        border: 2px solid #ffffff;
+      }
+
+      .tag {
+        margin-top: 10px;
+      }
+
+      .input1, .input2, .input3 {
+        min-height: 30px;
+        width: 90%;
+        margin-top: -20px !important;
+        text-align: left;
+      }
+
+
+      .input3 {
+        height: 150px;
+        margin-top: 0px !important;
+      }
+
+      .but {
+        height: 50px;
+        width: 90%;
+        background-color: #fff;
+        border-radius: 0px;
+        margin-left: 0px !important;
+        border:0px;
+        color: #000;
+      }
+      }
+
+
+
+
+
+
