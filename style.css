@@ -539,10 +539,28 @@ body{
 
 
 
+footer {
+  min-height: 100px ;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  display: table;
+  padding-top: 10%;
+  padding-bottom: 3%;
+  padding-left: 3%;
+  font-size: 14px;
+  font-family: 'Proxima-Nova-Semibold';
+}
 
 
+.info {
+  font-size: 20px;;
+  font-family: 'Proxima-Nova-ScOsf-Thin'
+}
 
-
+.copyright {
+  padding-top: 30%;
+}
 
 
 
@@ -797,6 +815,12 @@ body{
             margin-left: 0px !important;
             border:0px;
             color: #000;
+          }
+
+
+
+          .info {
+            font-size: 0.5em;
           }
                 
  }
